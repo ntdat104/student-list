@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+h1 {
+  user-select: none;
+  margin: 20px 0px;
+}
+
+.option {
+  margin: 20px 0px;
+}
+
+.delete {
+  margin: 20px 0px;
+}
+
+.create {
+  margin: 20px 0px;
+}
+
+.btn {
+  padding: 5px 10px;
+}
+
+.result{
+    width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 5px;
+  text-align: left;
+}

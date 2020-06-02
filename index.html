@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student manager</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Student manager</h1>
+    <div class="option">
+      <button class="btn" type="button" onclick="Show()">Show</button>
+      <button class="btn" type="button" onclick="">Save</button>
+    </div>
+    <form class="delete" method="get">
+      <input
+        class="lineDelete"
+        type="number"
+        placeholder="Dòng muốn xóa"
+        required
+      />
+      <button class="btn" type="submit" onclick="">Delete</button>
+    </form>
+    <form class="create" method="get">
+      <input class="maSV" type="text" placeholder="Mã SV" required />
+      <input class="firstName" type="text" placeholder="Tên" required />
+      <input class="middleName" type="text" placeholder="Đệm" required />
+      <input class="lastName" type="text" placeholder="Họ" required />
+      <input class="dateOfBirth" type="date" placeholder="Ngày Sinh" required />
+      <input class="className" type="text" placeholder="Tên Lớp" required />
+      <button class="btn" type="submit" onclick="Create()">Create</button>
+    </form>
+    <table class="result">
+      <tr>
+        <th>Mã SV</th>
+        <th>Họ</th>
+        <th>Đệm</th>
+        <th>Tên</th>
+        <th>Ngày Sinh</th>
+        <th>Tên Lớp</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+      </tr>
+    </table>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
